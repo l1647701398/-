@@ -1,7 +1,7 @@
 # coding=utf-8
 
 '''
-作者:Li Jianghua 学号：3117001132 班级：机械7003
+作者:Li Jianghua（黎江华） 学号：3117001132 班级：机械7003
 程序:线性方程组求解
 '''
 import matplotlib.pyplot as plt
@@ -76,7 +76,8 @@ if __name__ == '__main__':
                 for j in range(p+q+1):
                     A[i][i-p+j]=AA[i][j]
             elif i>n-q:
-                for j in range(n-i+p)
+                for j in range(n-i+p):
+                    A[i][i-p+j]=AA[i][j]
 
 
 
